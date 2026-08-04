@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-main);
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background: linear-gradient(135deg, #eef9f1, #f7f8fa, #ffffff);
   -webkit-font-smoothing: antialiased;
 }
  
@@ -92,6 +92,7 @@ body {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-card);
   padding: 30px 26px;
+  backdrop-filter: blur(10px);
 }
  
 /* ---------- Campos del formulario ---------- */
@@ -322,5 +323,16 @@ input:focus-visible {
   }
   .login-header h1 {
     font-size: 24px;
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
