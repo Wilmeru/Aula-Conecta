@@ -1,0 +1,141 @@
+# Requerimientos de Usuario – AulaConecta
+
+## 1. Módulo de Inicio de Sesión
+
+### ¿Qué debe tener?
+- Campo para correo institucional.
+- Campo para contraseña.
+- Botón **Iniciar sesión**.
+- Mensajes de error cuando las credenciales sean incorrectas.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 1: Inicio de sesión.
+
+---
+
+## 2. Módulo de Actividades
+
+### ¿Qué debe tener?
+- Lista de actividades.
+- Nombre de cada actividad.
+- Fecha de entrega.
+- Estado de la actividad (Pendiente, Completada o Vencida).
+- Opción para ordenar actividades por fecha.
+- Filtro por programa de formación.
+- Identificación de actividades completadas y vencidas.
+- Acceso al detalle de cada actividad.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 2: Consultar actividades pendientes.
+- Historia de Usuario 3: Ver fechas de entrega.
+- Historia de Usuario 4: Consultar detalle de la actividad.
+- Historia de Usuario 8: Ver actividades del programa.
+- Historia de Usuario 10: Identificar actividades completadas.
+- Historia de Usuario 11: Ordenar actividades.
+- Historia de Usuario 12: Visualizar actividades vencidas.
+
+---
+
+## 3. Módulo de Detalle de Actividad
+
+### ¿Qué debe tener?
+- Nombre de la actividad.
+- Descripción.
+- Requisitos.
+- Fecha de entrega.
+- Archivos adjuntos.
+- Observaciones del instructor.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 4: Consultar detalle de la actividad.
+- Historia de Usuario 6: Leer observaciones del instructor.
+
+---
+
+## 4. Módulo de Calificaciones
+
+### ¿Qué debe tener?
+- Lista de calificaciones.
+- Historial de notas.
+- Relación entre actividades y calificaciones.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 5: Revisar calificaciones.
+
+---
+
+## 5. Módulo de Progreso Académico
+
+### ¿Qué debe tener?
+- Porcentaje de avance.
+- Actividades completadas.
+- Actividades pendientes.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 7: Consultar progreso académico.
+
+---
+
+## 6. Módulo de Notificaciones
+
+### ¿Qué debe tener?
+- Notificaciones sobre nuevas actividades.
+- Acceso directo a la actividad desde la notificación.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 9: Recibir notificaciones.
+
+---
+
+## 7. Módulo Principal (Dashboard)
+
+### ¿Qué debe tener?
+- Resumen de actividades pendientes.
+- Resumen de actividades completadas.
+- Resumen de actividades vencidas.
+- Porcentaje de progreso académico.
+- Próxima actividad con su fecha de entrega.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 15: Ver un resumen del estado académico.
+
+---
+
+## 8. Módulo de Perfil
+
+### ¿Qué debe tener?
+- Nombre del aprendiz.
+- Programa de formación.
+- Número de ficha.
+- Correo institucional.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 16: Consultar el perfil.
+
+---
+
+## 9. Módulo de Navegación
+
+### ¿Qué debe tener?
+- Menú principal.
+- Navegación entre pantallas.
+- Botón para regresar a la pantalla anterior.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 14: Navegar entre las pantallas.
+
+---
+
+## 10. Módulo para Instructores
+
+### ¿Qué debe tener?
+- Crear actividades.
+- Editar actividades.
+- Registrar calificaciones.
+- Agregar observaciones.
+
+### Historias de usuario relacionadas
+- Historia de Usuario 17: Publicar actividades.
+- Historia de Usuario 18: Registrar calificaciones.
+- Historia de Usuario 19: Agregar observaciones.
+- Historia de Usuario 20: Actualizar actividades.
