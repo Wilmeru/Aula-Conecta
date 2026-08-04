@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AulaConecta | Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="login-container">
+        <!-- Logo y nombre -->
+        <section class="login-header">
+            <img src="" alt="Logo del SENA" class="logo-sena">
+            <h1>AulaConecta</h1>
+            <p>
+                Accede a tu información académica de manera rápida y segura.
+            </p>
+        </section>
+
+        <!-- Formulario -->
+        <section class="login-card">
+            <form action="#" method="post">
+                <!-- Correo -->
+                <div class="form-group">
+                    <label for="correo">
+                        Correo institucional
+                    </label>
+                    <input type="email" id="correo" name="correo" placeholder="usuario@sena.edu.co" required>
+                </div>
+
+                <!-- Contraseña -->
+                <div class="form-group">
+
+                    <label for="password">
+                        Contraseña
+                    </label>
+
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña"
+                            required>
+                        <button type="button" id="mostrarPassword">
+                            Mostrar
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- Botón principal -->
+                <button type="submit" class="btn-login">
+                    Iniciar sesión
+                </button>
+            </form>
+
+            <hr>
+
+            <!-- Google -->
+            <button type="button" class="btn-google">
+                Inicio rapido correo SoySENA
+            </button>
+
+            <!-- Enlaces -->
+            <nav class="login-links">
+
+                <a href="#">
+                    ¿Olvidaste tu contraseña?
+                </a>
+
+                <a href="#">
+                    Contacta a tu instructor
+                </a>
+            </nav>
+
+        </section>
+    </main>
+    <script src=""></script>
+
+</body>
+
+</html>
